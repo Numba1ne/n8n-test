@@ -3,8 +3,8 @@ import requests # type: ignore
 import uuid
 
 # Constants
-WEBHOOK_URL = "https://slayer.app.n8n.cloud/webhook/Invoke_Agent"
-BEARER_TOKEN = "Bearer {SLAYER}"
+WEBHOOK_URL = "https://slayer.app.n8n.cloud/webhook/invoke_agent"
+BEARER_TOKEN = "Humber1992"
 
 def generate_session_id():
     return str(uuid.uuid4())
